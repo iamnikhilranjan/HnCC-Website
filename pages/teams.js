@@ -123,7 +123,7 @@ function Teams() {
           })}
         </div>
 
-        <h2 className={Styles.postHead}>Event Manager</h2>
+        {/* <h2 className={Styles.postHead}>Event Manager</h2> */}
         <div className={`${Styles.cardContainer}`}>
           {TeamData2k22.slice(19, 23).map((item, index) => {
             return (
